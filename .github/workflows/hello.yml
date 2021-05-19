@@ -15,4 +15,4 @@ jobs:
           
       - name: Print Date
         run: date
-          echo $date
+          date
