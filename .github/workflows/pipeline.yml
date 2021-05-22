@@ -25,6 +25,12 @@ jobs:
         
       - name: test
         run: npm run test
+        
+      - name: content
+        run: ls -lah
+        
+      - name: package.json
+        run: cat package.json
 
       - name: e2e tests
         uses: cypress-io/github-action@v2
